@@ -1,0 +1,223 @@
+/*body global elements*/
+body{
+margin: auto 0px;
+padding:auto 0px;
+}
+
+/*Here starts the title*/
+h1{
+	font-family: tahoma;
+	font-size: 3em;
+	border-bottom: 2px solid red;
+	border-right: 2px solid red;
+	width: 400px;
+	text-align: center;
+}
+/*h2 global elements */
+h2{
+	text-align: center;
+	font-size: 25px;
+}
+/*here starts the ekdilosis*/
+.ekdilosis{
+	text-align: center;
+	font-size: 1em;
+	font-family: tahoma;
+	color: 	#000000;
+}
+/*here starts forma epik*/
+.forma-epikoinwnias{
+	display:flexbox;
+	font-size: 1em;
+	font-family: tahoma;
+	text-align: center;
+	padding-bottom: 10px;
+	margin: 10px;
+  background-color: grey;
+	}
+
+/*here starts the main nav*/
+.main-nav{
+	display:flex;
+	flex-wrap: wrap-reverse;
+	list-style: none;
+	font-size: 1em;
+	margin:0;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+}
+li{
+	padding: 20px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+/*here starts photo gallery*/
+.wrapper{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	height: 300px;
+	width:  300px;
+	margin: 10px;
+	padding: 10px;	
+	
+}
+.zone-red h3{
+text-align: center;
+font-family: tahoma;
+font-size: 25px;
+margin-top:-25px;
+}
+/*video*/
+.video-roka{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.zone-green{
+	height: 400px;
+	width: 300px;
+	margin: 5px;
+	padding: 10px;
+}
+
+
+footer{
+	font-family: tahoma;
+	font-size: 30px;
+	text-align: center;
+	background-color: red;
+}
+/*Media queries*/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .main-nav{
+  	font-size: 0,3em;
+  	padding: 0;
+  }
+  footer{
+	font-size: 0,3em;
+  	padding: 0;
+  }
+  .forma-epikoinwnias{
+  font-size: 0,3em;
+  	padding: 0;
+  	}
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .main-nav{
+  	font-size: 0,3em;
+  	padding: 0;
+  }
+  footer{
+	font-size: 0,3em;
+  	padding: 0;
+  }
+  .forma-epikoinwnias{
+  font-size: 0,3em;
+    padding: 0;
+  	}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+.main-nav{
+  	font-size: 0,3em;
+  	padding: 0;
+  }
+  footer{
+	font-size: 0,3em;
+  	padding: 0;
+  }
+  .forma-epikoinwnias{
+  font-size: 0,3em;
+    padding: 0;
+  	}
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .main-nav{
+  	font-size: 0,3em;
+  	padding: 0;
+  }
+  footer{
+	font-size: 0,3em;
+  	padding: 0;
+  }
+  .forma-epikoinwnias{
+  font-size: 0,3em;
+    padding: 0;
+  	}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .main-nav{
+  	font-size: 0,3em;
+  	padding: 0;
+  }
+  footer{
+	font-size: 0,3em;
+  	padding: 0;
+  }
+  .forma-epikoinwnias{
+  font-size: 0,3em;
+    padding: 0;
+  	}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .main-nav{
+  	font-size: 0,3em;
+  	padding: 0;
+  }
+  footer{
+	font-size: 0,3em;
+  	padding: 0;
+  }
+  .forma-epikoinwnias{
+  font-size: 0,3em;
+    padding: 0;
+  	}
+}
